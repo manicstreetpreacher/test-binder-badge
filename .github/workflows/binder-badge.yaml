@@ -21,5 +21,4 @@ jobs:
           })
       env:
         PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.name }}
         PR_HEAD_USERREPO: ${{ github.event.pull_request.head.repo.full_name }}
