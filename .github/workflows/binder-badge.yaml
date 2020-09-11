@@ -9,3 +9,4 @@ jobs:
       - uses: manics/action-binderbadge@dev
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          query: urlpath=lab
